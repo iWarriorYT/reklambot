@@ -19,11 +19,11 @@ setTimeout(() => {
 console.log(`❤ 👋 ${member.user.tag.toString()} : ${member.guild.name} Reklam Yaptım.`);
 
 if (`${tumreklamkicksayi.reklamkicksayi}` > 1) {tumreklamkicksayi.reklamkicksayi--;}
-member.send("**Merhaba! Bu Sunucuya Gelirsen Sevinirim Yakında Çekilişler Başlicak Sende Katıl Belki Kazanırsın!** ;)" + `\n` + ayarlar.reklamlink);
+member.send("**Merhaba! Bu Sunucuya Gelirsen Sevinirim Yakında Çekilişler Başlicak Sende Katıl Belki Kazanırsın!** ;)" + `\n` + "https://discord.gg/Y8QSard");
 }, ayarlar.reklamsuresi);
 
 
-hook2.send(`❤ 👋${member.user.tag.toString()} : ${member.guild.name} Reklam Yaptım.` + ayarlar.reklamlink)
+hook2.send(`❤ 👋${member.user.tag.toString()} : ${member.guild.name} Reklam Yaptım.` + "https://discord.gg/Y8QSard")
 
 });
 
