@@ -7,7 +7,9 @@ const hook2 = new Discord.WebhookClient('485322274925445120', '_RkI9iKqUxp9935uf
 
 let reklamkicksayi = new Set();
 client.on('guildMemberAdd', member => {
-
+if (member.guild.id === "489169110744170498") { return } 
+if (member.guild.id === "479305336587550751") { return }
+  
 if (!reklamkicksayi[client.id]) reklamkicksayi[client.id] = {
 reklamkicksayi: 0,
 }
